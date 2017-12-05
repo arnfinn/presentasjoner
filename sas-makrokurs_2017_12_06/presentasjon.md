@@ -26,10 +26,10 @@ class:left
 
 ```sas
 %macro makronavn(parameter1 = , parameter2 = );
+
  /*
  Gjør noe her
  */ 
- 
 
 %mend;
 ```
@@ -42,9 +42,6 @@ class:left
 
 ```sas
 %macro makronavn(parameter1 = , parameter2 = );
- /*
- Gjør noe her
- */
  
 %put NOTE: parameter1 er &parameter1;
 %put NOTE: parameter2 er &parameter2;
@@ -66,9 +63,6 @@ Kjøres slik:
 
 ```sas
 %macro makronavn(parameter1 = default1, parameter2 = default2);
- /*
- Gjør noe her
- */
  
 %put NOTE: parameter1 er &parameter1;
 %put NOTE: parameter2 er &parameter2;
@@ -94,9 +88,6 @@ Kjøres slik:
 
 ```sas
 %macro makronavn(parameter1 = default1, parameter2 = default2);
- /*
- Gjør noe her
- */
  
 %put NOTE: parameter1 er &parameter1;
 %put NOTE: parameter2 er &parameter2;
@@ -120,9 +111,6 @@ Kjøres slik:
 
 ```sas
 %macro makronavn(parameter1 = default1, parameter2 = default2);
- /*
- Gjør noe her
- */
  
 %mend;
 ```
