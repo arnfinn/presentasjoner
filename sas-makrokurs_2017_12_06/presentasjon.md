@@ -3,14 +3,15 @@ name: inverse
 layout: true
 class: center, middle, inverse
 ---
-##Internkurs om
 #SAS-makroer
 
-.author[Arnfinn Hykkerud og Hanne Sigrun]
+.subtitle[Internkurs ved SKDE]
 
-.date[5. desember 2017, Tromsø]
+.author[Arnfinn og Hanne Sigrun]
 
-.footnote[Presentasjonen finnes på [GitHub](https://github.com/arnfinn/presentasjoner/)]
+.date[Sjette desember 2017, Tromsø]
+
+.footnote[Presentasjonen finnes på [https://tinyurl.com/makrokurs-tmp](https://tinyurl.com/makrokurs-tmp) og på [GitHub](https://github.com/arnfinn/presentasjoner/).]
 
 
 ---
@@ -110,16 +111,16 @@ template: inverse
 - Tell antall avdelingsopphold (kontakter) i 2016 for menn i følgende aldersgrupper:
 
 | Gruppe | Alder |
-| --- | --- | 
-| 1: | 0-9 år   |
-| 2: | 10-19 år |
-| 3: | 20-29 år |
-| 4: | 30-39 år |
-| 5: | 40-49 år |
-| 6: | 50-59 år |
-| 7: | 60-69 år |
-| 8: | 70-79 år |
-| 9: | 80-89 år |
+| --- | ---: | 
+| 1 | 0-9 år   |
+| 2 | 10-19 år |
+| 3 | 20-29 år |
+| 4 | 30-39 år |
+| 5 | 40-49 år |
+| 6 | 50-59 år |
+| 7 | 60-69 år |
+| 8 | 70-79 år |
+| 9 | 80-89 år |
 
 - Presenter i tabell
 
