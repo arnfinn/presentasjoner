@@ -24,7 +24,7 @@ class:left
 
 # SAS-makro
 
-```
+```sas
 %macro makronavn(parameter1 = , parameter2 = );
  /*
  Gjør noe her
@@ -50,13 +50,17 @@ class:left
 ```
 
 
----
+--
 
 # SAS-makro
 
 Kjøres slik:
 
-```
+```sas
 %makronavn(parameter1 = ditt, parameter2 = datt);
 ```
+
+--
+
+De forhåndsvalge parametrene `default1` og `default2` blir her erstattet med `ditt` og `datt`.
 
