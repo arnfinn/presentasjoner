@@ -33,3 +33,30 @@ class:left
 %mend;
 ```
 
+
+---
+layout: false
+class:left
+
+# SAS-makro
+
+```sas
+%macro makronavn(parameter1 = default1, parameter2 = default2);
+ /*
+ Gjør noe her
+ */
+ 
+%mend;
+```
+
+
+---
+
+# SAS-makro
+
+Kjøres slik:
+
+```
+%makronavn(parameter1 = ditt, parameter2 = datt);
+```
+
