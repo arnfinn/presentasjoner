@@ -3,11 +3,11 @@ layout: true
 class: center, middle, inverse
 ---
 name: normal
-layout: false
+layout: true
 class: left, inverse
 ---
 name: oppgave
-layout: false
+layout: true
 class: left
 ---
 
