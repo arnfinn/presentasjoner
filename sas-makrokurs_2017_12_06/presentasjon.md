@@ -3,6 +3,7 @@ name: inverse
 layout: true
 class: center, middle, inverse
 ratio: '16:9'
+slideNumber: true
 ---
 ##Internkurs om
 #SAS-makroer
