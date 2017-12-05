@@ -2,8 +2,6 @@
 name: inverse
 layout: true
 class: center, middle, inverse
-ratio: '16:9'
-slideNumber: true
 ---
 ##Internkurs om
 #SAS-makroer
@@ -12,7 +10,7 @@ slideNumber: true
 
 .date[5. desember 2017, Tromsø]
 
-.footnote[Presentasjonen finnes på [GitHub](https://github.com/arnfinn/presentasjoner/makrokurs_2017_12_06)]
+.footnote[Presentasjonen finnes på [GitHub](https://github.com/arnfinn/presentasjoner/)]
 
 
 ---
@@ -30,8 +28,9 @@ class:left
 %macro makronavn(parameter1 = , parameter2 = );
  /*
  Gjør noe her
- */
+ */ 
  
+
 %mend;
 ```
 
