@@ -28,7 +28,7 @@ template: inverse
 
 ---
 layout: false
-class:left
+class:left, inverse
 
 # SAS-makro
 
