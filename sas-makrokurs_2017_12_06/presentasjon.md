@@ -109,6 +109,7 @@ template: inverse
 
 - Tell antall avdelingsopphold (kontakter) i 2016 for menn i følgende aldersgrupper:
 
+| --- | --- | 
 | 1: | 0-9 år   |
 | 2: | 10-19 år |
 | 3: | 20-29 år |
