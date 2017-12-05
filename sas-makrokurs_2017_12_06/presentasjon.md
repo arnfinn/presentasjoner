@@ -3,7 +3,8 @@ name: inverse
 layout: true
 class: center, middle, inverse
 ---
-#SAS-makroer
+
+.title[SAS-makroer]
 
 .subtitle[Internkurs ved SKDE]
 
@@ -11,7 +12,7 @@ class: center, middle, inverse
 
 .date[Sjette desember 2017, Tromsø]
 
-.footnote[Presentasjonen finnes på [https://tinyurl.com/makrokurs-tmp](https://tinyurl.com/makrokurs-tmp) og på [GitHub](https://github.com/arnfinn/presentasjoner/).]
+.footnote[Presentasjonen finnes her: [https://tinyurl.com/makrokurs](https://tinyurl.com/makrokurs)]
 
 
 ---
