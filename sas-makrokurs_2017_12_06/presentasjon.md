@@ -26,17 +26,92 @@ class:left
 
 ```sas
 %macro makronavn(parameter1 = , parameter2 = );
- /*
- Gjør noe her
- */
+/*
+Gjør noe her
+*/
  
 %mend;
 ```
 
+---
+
+# SAS-makro
+
+```sas
+%macro makronavn(parameter1 = , parameter2 = );
+/*
+Gjør noe her
+*/
+ 
+%put NOTE: parameter1 er &parameter1;
+%put NOTE: parameter2 er &parameter2;
+ 
+%mend;
+```
+
+--
+
+Kjøres slik:
+
+```sas
+%makronavn(parameter1 = ditt, parameter2 = datt);
+```
 
 ---
-layout: false
-class:left
+
+# SAS-makro
+
+```sas
+%macro makronavn(parameter1 = default1, parameter2 = default2);
+/*
+Gjør noe her
+*/
+ 
+%put NOTE: parameter1 er &parameter1;
+%put NOTE: parameter2 er &parameter2;
+ 
+%mend;
+```
+
+--
+
+Kjøres slik:
+
+```sas
+%makronavn(parameter1 = ditt, parameter2 = datt);
+```
+--
+```sas
+%makronavn;
+```
+
+---
+
+# SAS-makro
+
+```sas
+%macro makronavn(parameter1 = default1, parameter2 = default2);
+/*
+Gjør noe her
+*/
+ 
+%put NOTE: parameter1 er &parameter1;
+%put NOTE: parameter2 er &parameter2;
+ 
+%mend;
+```
+
+--
+
+Kjøres slik:
+
+```sas
+%makronavn;
+```
+
+---
+
+
 
 # SAS-makro
 
@@ -49,16 +124,6 @@ class:left
 %mend;
 ```
 
-
---
-
-# SAS-makro
-
-Kjøres slik:
-
-```sas
-%makronavn(parameter1 = ditt, parameter2 = datt);
-```
 
 --
 
