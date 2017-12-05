@@ -2,6 +2,7 @@
 name: inverse
 layout: true
 class: center, middle, inverse
+ratio: '16:9'
 ---
 ##Internkurs om
 #SAS-makroer
