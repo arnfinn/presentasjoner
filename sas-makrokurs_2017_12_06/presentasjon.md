@@ -97,7 +97,8 @@ template: inverse
 template: inverse
 # Oppgave 2
 
---- 
+---
+
 # Oppgave 2
 
 - Tell antall avdelingsopphold (kontakter) i 2016 for menn i følgende aldersgrupper:
