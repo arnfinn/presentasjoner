@@ -34,6 +34,8 @@ class:left
 ```
 
 ---
+layout: false
+class:left
 
 # SAS-makro
 
