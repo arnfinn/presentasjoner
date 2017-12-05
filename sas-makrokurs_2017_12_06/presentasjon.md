@@ -1,15 +1,18 @@
-name: inverse
-layout: true
-class: center, middle, inverse
----
 name: normal
 layout: true
 class: left, inverse
+
 ---
 name: oppgave
 layout: true
 class: left
+
 ---
+name: inverse
+layout: true
+class: center, middle, inverse
+---
+template: inverse
 
 .title[SAS-makroer]
 
@@ -23,14 +26,8 @@ class: left
 
 
 ---
-
-name: agenda
-
-# Agenda
-
----
-
 template: inverse
+
 # Hva er en SAS-makro?
 
 ---
